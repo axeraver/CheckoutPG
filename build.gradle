@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+subprojects {
+
+    sourceCompatibility = 11
+
+    repositories {
+        mavenCentral()
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}

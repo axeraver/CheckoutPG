@@ -1,0 +1,4 @@
+rootProject.name = 'CheckoutPaymentGateway'
+include 'BankSimulator'
+include 'PayzGateAPI'
+
